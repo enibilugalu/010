@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
-void swap3(int* a, int* b)
+void swap(int* a, int* b)
 {
     int temp = *a;
     *a = *b;
-    //*b =
+    *b = a*
 }
-int main2()
+int main()
 {
     int a = 5;
     int b = 7;
     cout << &a << endl;
     cout << &b << endl;
-   // swap(&a, &b);
+    swap(&a, &b);
 }
